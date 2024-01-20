@@ -1,0 +1,15 @@
+1. Here is our Machine Learning model for image recognition or classification.
+2. We have used tensorflow library for image recognition
+3. Here is our image path
+4. We are going to demonstrate 4 methods to load an image 
+5.1st one is iPythone.display. We have set the size
+6.2nd method is open cv method from python. Now the image is loaded. We can see the color of this image has turned into BGR format. To fix that we are gonna resize this image and in plotting we are going to convert it from BGR to RGB using necessary lines of code.
+7. 3rd method is .. loading an image using tensorflowflow.keras library. We have given the size . As We can see the image is loaded.
+8. 4th method is to load an image using pillow. As we can see the image is loaded.
+9. Now we are going to creat our model following this certain algorithm called mobilenet which is powered by Google. It has many versions . We are using the 2017 version of it. We can use different versions also as per demand. 
+10. So we can see we have also used another version or it as an example to you how it's working. It's the after version of mobilenet algorithm Mobilenet v2 2018 having more prediction capabilities.
+11. Now we have to process the image before prediction. We have used the tensorflow.keras Library to process it.
+12. We have successfully converted our image to different array
+13. As we can see our processed final image is of 4 dimensions
+14. Now we are predicting the image. For this it's using datas from Google api
+15. In the result we can see the results it has predicted redfox is 73% predicted, kitfox is 13% predicted, greyfox is 6% predicted, coyote is 1% predicted, tiger cat is 1 % predicted.
